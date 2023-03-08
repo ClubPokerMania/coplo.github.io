@@ -1,0 +1,226 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Sans-Serif;
+  background: chocolate;
+  }
+  nav{
+    background-color: brown;
+    height: 55px;
+  padding:1Px;
+  border: 1px solid black;
+  }
+  .navbars{
+    display: flex;
+    padding: 10px 0px;
+  }
+ 
+  .link{
+    margin-left: auto;
+    padding: 5px;
+    margin: auto;
+    /* position: relative; */
+  }
+  .link a{
+  color: rgb(0, 6, 8);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid black;
+  font-size:105%;
+  margin: 2px;
+  border-radius: 8px;
+  background-color: burlywood;
+  height: 1000;
+  transition: .5s;
+  cursor: pointer;
+  }
+  .link a:hover{
+    background-color: aquamarine;
+    border: 3px solid aqua;
+  }
+  i{
+    color: chocolate;
+    font-size: 20px;
+  }
+  @media(max-width:768px){
+    nav{
+      position: fixed;
+      bottom:0;
+      left: 0;
+      right: 0;
+    }
+  }
+.games{
+  width: 98%;
+  height: 100%;
+  margin: 20px;
+  }
+img{
+width: 145;
+height: 120;
+margin: 6px;
+background: ;
+}
+.login-email{
+margin: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30;
+}
+.input-group{
+width: 160;
+}
+input{
+  border:  2px solid black;
+  height: 25;
+  border-radius: 3px;
+  cursor: pointer;
+  color: darkblue;
+  transition: .5s;
+}
+input:hover{
+border: 2px solid darkblue;
+color: crimson;
+}
+button{
+  background: crimson;
+  font-weight: bold;
+  height: 25;
+  width: 50;
+  border-radius: 6px;
+  transition: .5s;
+  cursor: pointer;
+}
+button:hover{
+  background: blue;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+.logs{
+  background: crimson;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+  height: 125;
+}
+.logo-img{
+  width: 200;
+  height: 110;
+  border: 3px;
+  border-radius: 620px;
+  border: 3px solid burlywood;
+}
+.lupa{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-left: 10%;
+  font-style: italic;
+  font-family:tahoma;
+  font: bold;
+  color: blue;
+  cursor: pointer;
+  transition: .3s;
+}
+.lupa:hover{
+  color: aquamarine;
+}
+p{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: burlywood;
+}
+.text-welcome-club{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-login-club{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: crimson;
+}
+.main{
+width: 100%;
+box-sizing: border-box;
+overflow: hidden;
+box-shadow: 10px 25px 30px rgb(143, 7, 7);
+}
+.wrap{
+  display: flex;
+  animation: slide 6s infinite;
+  background: chocolate;
+}
+img{
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid blue;
+}
+@keyframes slide {
+  0%{
+    transform: translateY(0);
+  }
+  10%{
+    transform: translateY(0);
+  }
+  30%{
+    transform: translateY(-100%);
+  }
+  40%{
+    transform: translateY(-200%);
+  }
+  50%{
+    transform: translateY(-300%);
+  }
+  60%{
+    transform: translateY(-300%);
+  }
+  80%{
+    transform: translateY(-200%);
+  }
+  90%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+h1{
+  background: brown; 
+}
+.p1{
+  background:red; 
+}
+h2{
+  background: brown;  
+}
+.p2{
+  background:red;  
+}
+h3{
+  background: brown;   
+}
+.p3{
+  background:red;  
+}
+h1 .p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50;
+}
+h2 .p2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50;
+}
+h3 .p3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50;
+}
